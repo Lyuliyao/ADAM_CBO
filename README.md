@@ -9,6 +9,7 @@ and  "GPU setting of these code" part also gives some advice about how to run it
 ### Rastrigin function
 
 We show the code about how to find the local minima of high dimensional Rastrigin function,
+<img src="http://latex.codecogs.com/gif.latex?f(x)=\frac{1}{d} \sum_{i=1}^d\left[(x_i-B)^2-10\cos(2\pi (x_i-B)+10\right]+C" />
 
 ![1](http://latex.codecogs.com/svg.latex?f(x)=\frac{1}{d} \sum_{i=1}^d\left[(x_i-B)^2-10\cos(2\pi (x_i-B)+10\right]+C)
 
