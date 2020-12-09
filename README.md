@@ -9,10 +9,10 @@ and  "GPU setting of these code" part also gives some advice about how to run it
 ### Rastrigin function
 
 We show the code about how to find the local minima of high dimensional Rastrigin function,
-$$
-f(x) = \frac{1}{d} \sum_{i=1}^d \left[(x_i-B)^2 -10\cos(2\pi (x_i-B)) + 10\right] + C
-$$
-where $d$ is the dimension of the problem, $B = \arg \min f(x)$ and $C= \min f(x)$.
+
+![1](http://latex.codecogs.com/svg.latex?f(x) = \frac{1}{d} \sum_{i=1}^d \left[(x_i-B)^2 -10\cos(2\pi (x_i-B) + 10\right] + C)
+
+where $d$ is the dimension of the problem, ![1](http://latex.codecogs.com/svg.latex?B = \arg \min f(x)) and ![1](http://latex.codecogs.com/svg.latex?​C= \min f(x)).
 
 This object function is defined in obj_fcn.m.
 
@@ -32,9 +32,11 @@ In CBO_momentum folder, the name of the .m file specify the random noise and ini
 ADAM_normal(dim,p_N,p_batch,simu_N,decay_rate,lambda)
 ```
 
-### 
+### Deep Neural Network
 
-## GPU setting of these code
+DNN part have 3 example, including appriximate function, frequency principle and solving PDE. The main function is ADAM and you can simply run it to reproduce the result.
+
+### GPU setting of these code
 
 You can use "gpuDevice" in matlab to see whether your matlab support gpu computation. If your matlab support gpu computation, it may output
 
@@ -86,13 +88,11 @@ command, like replace
 rand(p_N,N_W,'single','gpuArray')
 ```
 
-
+by
 
 ```matlab
 rand(p_N,N_W)
 ```
-
-in the code to stop it from using gpu, but runing dnn problem will cause much time.
 
 in the code to stop it from using gpu, but runing dnn problem will cause much time.
 
