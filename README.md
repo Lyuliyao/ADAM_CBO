@@ -34,3 +34,11 @@ Error using gpuDevice (line 26)
 No supported GPU device was found on this computer. To learn more about supported GPU devices, see <a
 href="matlab:web('http://www.mathworks.com/gpudevice','-browser')">www.mathworks.com/gpudevice</a>.
 
+One can delete 'single' and 'gpuArray' command, like replace
+rand(p_N,N_W,'single','gpuArray')
+by 
+rand(p_N,N_W)
+in the code to stop it from using gpu, but runing dnn problem will cause much time.
+
+
+
