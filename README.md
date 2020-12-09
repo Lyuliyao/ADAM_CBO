@@ -26,6 +26,8 @@ ans =
           CanMapHostMemory: 1
            DeviceSupported: 1
             DeviceSelected: 1
+
+
 or it may output
 >> gpuDevice
 Error using gpuDevice (line 26)
