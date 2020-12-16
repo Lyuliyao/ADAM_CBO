@@ -1,5 +1,5 @@
 # ADAM_CBO
-## This is the code written for A CONSENSUS-BASED GLOBAL OPTIMIZATION METHOD WITH ADAPTIVE MOMENTUM ESTIMATION
+This is the code written for A consensus-based global optimization method with adaptive momentum estimation.
 This is a matlab code and require gpu for running it.  If you have some question about using gpu in Matlab. You can refer to 
 
 [GPU Computing]: https://www.mathworks.com/help/parallel-computing/gpu-computing.htm
